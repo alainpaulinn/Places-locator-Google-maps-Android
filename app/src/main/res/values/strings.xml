@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">alain_restaurants</string>
+    <string name="loginText" translatable="false">Login...</string>
+    <string name="passwordText">Password...</string>
+    <string name="buttonLoginText">Login</string>
+    <string name="buttonRegister">Register now!</string>
+    <string name="emailText" translatable="false">E-mail...</string>
+    <string name="buttonSubmit">Submit</string>
+    <string name="buttonAddRestaurant">Add new restaurant</string>
+    <string name="errTitle">Error!</string>
+    <string name="errorEmptyFields">None of the fields can be empty</string>
+    <string name="errorLoginIncorrect">Wrong login and/or password</string>
+    <string name="errorAccountExists">An account with this username already exists</string>
+    <string name="infoRegisterSuccessfull">Account has been registered. You may now login.</string>
+    <string name="inputRestaurantName">Restaurant name...</string>
+    <string name="inputRestaurantPhone">Phone number...</string>
+    <string name="buttonGps">Get GPS position</string>
+    <string name="restaurantAdded">A new restaurant has been added</string>
+    <string name="errorAPI">Error! Something went wrong :(</string>
+</resources>

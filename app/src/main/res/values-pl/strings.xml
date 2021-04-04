@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">alain_restaurants</string>
+    <string name="passwordText">Hasło</string>
+    <string name="buttonLoginText">Zaloguj się</string>
+    <string name="buttonRegister">Zarejestruj się</string>
+    <string name="buttonSubmit">Zartwierdz</string>
+    <string name="buttonAddRestaurant">Dodaj restaurację</string>
+    <string name="errTitle">Błąd!</string>
+    <string name="errorEmptyFields">Pola nie powinny być puste!</string>
+    <string name="errorLoginIncorrect">Nie prawidłowa nazwa użytkownika i/lub hasło</string>
+    <string name="errorAccountExists">Konto o podanym loginie już istnieje</string>
+    <string name="infoRegisterSuccessfull">Konto zostało zarejestrowane i możesz się zalogować.</string>
+    <string name="inputRestaurantName">Nazwa restauracji...</string>
+    <string name="inputRestaurantPhone">Numer telefonu...</string>
+    <string name="buttonGps">Pobierz pozycję GPS</string>
+    <string name="restaurantAdded">Nowa restauracja została dodana</string>
+    <string name="errorAPI">Błąd! Coś nie tak :(</string>
+</resources>

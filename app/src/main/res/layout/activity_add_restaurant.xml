@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRestaurantActivity">
+
+    <EditText
+        android:id="@+id/et_RestaurantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="350dp"
+        android:ems="10"
+        android:hint="@string/inputRestaurantName"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/et_RestaurantPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map" />
+
+    <EditText
+        android:id="@+id/et_RestaurantPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="350dp"
+        android:ems="10"
+        android:hint="@string/inputRestaurantPhone"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btn_GetGPS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_RestaurantName" />
+
+    <Button
+        android:id="@+id/btn_AddRestaurantSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:width="350dp"
+        android:text="@string/buttonSubmit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_GetGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="350dp"
+        android:text="@string/buttonGps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_RestaurantPhone" />
+
+    <TextView
+        android:id="@+id/tv_Position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_GetGPS" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        app:layout_constraintBottom_toTopOf="@+id/et_RestaurantName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MapsActivity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
